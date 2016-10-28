@@ -44,6 +44,7 @@ ul li {
     border-width: 3px 0px 0px 0px;
 }
 
+
 ul li:nth-child(3) {
     border-bottom: 3px solid;
 }
