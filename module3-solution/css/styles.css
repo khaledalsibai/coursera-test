@@ -1,42 +1,63 @@
-h1{
-	margin-bottom: 22px;
-}
-ul{
-	text-align: center;
+    h1 {
+    margin-bottom: 22px;
 }
 
-section{
-	background-color: #eaeaea;
-	height: 100%;
-}
-h5{
-	text-decoration: bold;
-	font-size:25px;
-	text-align: center;
-}
-section p{
-	text-indent: 50px;
-	text-align: justify;
-	padding: 10px;
-}
-#header-nav{
-	background-color: #eaeaea;
+ul {
+    text-align: center;
 }
 
+section {
+    height: 100%;
+}
 
+h5 {
+    text-decoration: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+section p {
+    text-indent: 50px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#header-nav {
+    background-color: #eaeaea;
+}
+
+#chicken,
+#beef,
+#sushi {
+    background-color: #a5a5a5;
+    color: #fff;
+    padding: 10px;
+}
+
+.ptext {
+    background-color: #eaeaea;
+}
+
+ul li {
+    font-size: 20px;
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+}
+
+ul li:nth-child(3) {
+    border-bottom: 3px solid;
+}
 
 
 /********** Medium and large devices only **********/
+
 @media (min-width: 768px) {
-#nav-list{
-	display: none;
-}
-
-/********** Small devices only **********/
-@media (min-width: 767px) {
-#nav-list{
-	display: none;
-}
-}
-
-  
+    #nav-list {
+        display: none;
+    }
+    /********** Small devices only **********/
+    @media (min-width: 767px) {
+        #nav-list {
+            display: none;
+        }
+    }
