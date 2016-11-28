@@ -4,7 +4,7 @@ html body {
     min-height: 2000px;
     padding-top: 70px;
     background-color: #01539c;
-    background-image: url('../img/background copy.png');
+    background-image: url('../img/background-bottom.png');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100%;
@@ -43,7 +43,7 @@ html body {
 
 
 .head-jumbotron {
-    background-image: url('../img/background.png');
+    background-image: url('../img/background-top.png');
     background-color: #5bc0de;
     text-align: center;
     padding: 30px;
