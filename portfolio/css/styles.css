@@ -1,0 +1,130 @@
+
+
+html body {
+    min-height: 2000px;
+    padding-top: 70px;
+    background-color: #01539c;
+    background-image: url('../img/background copy.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+}
+
+/* Header */
+#header-nav {
+    background-color: #5cb85c;
+    border: none;
+    /* height: 60px;*/
+}
+
+#header-nav a {
+    color: #fff;
+    text-align: center;
+}
+
+#header-nav a:hover {
+    color: #5cb85c;
+    background-color: #fff;
+    text-align: center;
+}
+
+.active a {
+    color: #5cb85c !important; 
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #5cb85c;
+}
+
+.navbar-toggle, .icon-bar {
+    border:1px solid #fff;
+}
+
+
+.head-jumbotron {
+    background-image: url('../img/background.png');
+    background-color: #5bc0de;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+
+.head-jumbotron img {
+    width: 20%;
+    border: 6px solid #5cb85c;
+}
+
+.head-jumbotron h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: #fff;
+}
+
+
+/*****/
+
+.body-jumbotron {
+    background-color: #fff;
+    text-align: left;
+    padding: 30px;
+    color: #01539c;
+}
+
+.body-jumbotron p {
+    font-size: 1.3em;
+    text-align: justify;
+    line-height: 120%;
+}
+
+.body-jumbotron h3 {
+    color: #5cb85c;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    display: block;
+    /* for use on default inline elements like span */
+    margin: 25px auto;
+    overflow: hidden;
+    background-color: #b7b7b7;
+}
+
+#footer-customization {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    text-align: center;
+}
+
+#footer-customization i {
+    font-size: 240%;
+    padding: 20px 40px 20px 40px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#footer-customization i:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+#social-customization {
+    color: #fff;
+    text-align: center;
+}
+
+#social-customization i {
+    font-size: 240%;
+    padding: 40px 40px 20px 40px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#social-customization i:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.pic-tiles img {
+    margin: 10px auto;
+    margin-bottom: 10px;
+    background-position: center;
+}
