@@ -6,15 +6,14 @@ html body {
 
 p {
     font-size: 1.1em !important;
+    letter-spacing: 1px;
 }
 
 
 /* Header */
-
 #header-nav {
     background-color: #5cb85c;
     border: none;
-    /* height: 60px;*/
 }
 
 #header-nav a {
@@ -90,7 +89,7 @@ p {
 
 .body-jumbotron p {
     font-size: 1.3em;
-    text-align: justify;
+    text-align: left;
     line-height: 120%;
 }
 
@@ -159,6 +158,9 @@ p {
     .head-jumbotron h1 {
         font-size: 2em;
     }
+        .head-jumbotron h3 {
+        font-size: 1.3em;
+    }
 }
 
 
@@ -186,9 +188,15 @@ p {
     .head-jumbotron h1 {
         font-size: 3em;
     }
+        .head-jumbotron h3 {
+        font-size: 1.6em;
+    }
     p {
         font-size: 1.2em !important;
     }
+    .body-jumbotron p {
+    text-align: justify;
+}
 }
 
 
@@ -214,7 +222,7 @@ p {
         font-size: 3.2em;
     }
     .head-jumbotron h3 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
     .head-jumbotron h5 {
         font-size: 1em;
@@ -240,7 +248,7 @@ p {
         font-size: 3.5em;
     }
     .head-jumbotron h3 {
-        font-size: 2em;
+        font-size: 2.3em;
     }
     .head-jumbotron h5 {
         font-size: 1.1em;
