@@ -79,7 +79,16 @@ p {
 }
 
 
-/*****/
+/**Carousel**/
+
+/*.carousel-inner > .item > img {
+    margin: 0 auto;
+}*/
+
+.body-jumbotron > .container{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
 
 .body-jumbotron {
     background-color: #fff;
@@ -96,6 +105,10 @@ p {
 
 .body-jumbotron h3 {
     color: #5cb85c;
+}
+
+.body-jumbotron h6 {
+    text-align: center;
 }
 
 .divider {

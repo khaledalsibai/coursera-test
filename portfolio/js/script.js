@@ -11,7 +11,16 @@ $('.navbar-collapse a').click(function() {
 });
 
 
-//Bootstrap Carousel
-$(function() {
-    $('#madinah-carousel').carousel();
-});()
+//Bootstrap Carousel controls
+$(function(){
+    $('.carousel.slide').carousel({
+        interval: 10000,
+        pause: "hover"
+    });
+
+    $('input').focus(function(){
+       $("#myCarousel").carousel('pause');
+    }).blur(function() {
+       $("#myCarousel").carousel('cycle');
+    });
+});
