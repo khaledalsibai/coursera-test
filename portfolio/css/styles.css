@@ -1,21 +1,21 @@
+/* General */
+
 html body {
     min-height: 2000px;
     padding-top: 70px;
     background-color: #01539c;
 }
 
-p {
-    font-size: 1.1em !important;
-    letter-spacing: 1px;
-}
 
-
-/* Header */
+/* Navigation bar */
 
 #header-nav {
     background-color: #5cb85c;
     border: none;
 }
+
+
+/* Navigation bar links*/
 
 #header-nav a {
     color: #fff;
@@ -28,19 +28,39 @@ p {
     text-align: center;
 }
 
-.active a {
-    color: #5cb85c !important;
-    background-color: #fff !important;
+#header-nav .active a {
+    color: #5cb85c;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover {
     background-color: #5cb85c;
 }
 
-.navbar-toggle,
-.icon-bar {
-    border: 1px solid #fff;
+.navbar-default .navbar-toggle {
+    border-color: #fff;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+/* Navigation bar icons on the right side */
+
+#header-nav .navbar-right a {
+    font-size: 1.5em;
+    margin: 0px 5px 0px -30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#header-nav .navbar-right a:hover {
+    background-color: #5cb85c;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* Calling button */
 
 .btn-lg {
     margin-top: 10px;
@@ -50,6 +70,9 @@ p {
 .btn-lg:hover {
     background-color: #5cb85c;
 }
+
+
+/* Head jumbotron */
 
 .head-jumbotron {
     background-image: url('../img/portfolio-background.png');
@@ -66,26 +89,23 @@ p {
 
 .head-jumbotron h1 {
     margin-bottom: 20px;
-    font-size: 1.7em;
+    font-size: 2em;
     color: rgba(255, 255, 255, 1);
 }
 
 .head-jumbotron h3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .head-jumbotron h5 {
     font-size: 0.8em;
+    text
 }
 
 
-/**Carousel**/
+/* Body jumbotron */
 
-/*.carousel-inner > .item > img {
-    margin: 0 auto;
-}*/
-
-.body-jumbotron > .container{
+.body-jumbotron > .container {
     padding-top: 20px;
     padding-bottom: 5px;
 }
@@ -121,6 +141,9 @@ p {
     background-color: #b7b7b7;
 }
 
+
+/* Skills progress bars */
+
 .progress div {
     color: #fff;
     font-weight: bold;
@@ -128,6 +151,9 @@ p {
     text-align: left;
     padding-left: 5px;
 }
+
+
+/* Footer */
 
 #footer-customization {
     background-color: #5cb85c;
@@ -145,6 +171,9 @@ p {
     color: rgba(255, 255, 255, 1);
 }
 
+
+/* Head jumbotron icons*/
+
 #social-customization i {
     font-size: 170%;
     padding: 15px 6px;
@@ -155,14 +184,8 @@ p {
     color: rgba(255, 255, 255, 1);
 }
 
-.pic-tiles img {
-    margin: 10px auto;
-    margin-bottom: 10px;
-    background-position: center;
-}
 
-
-/*==========  Mobile First Method  ==========*/
+/*==========  Mobile first media queries  ==========*/
 
 
 /* Extra Small Devices, Phones */
@@ -213,11 +236,9 @@ p {
     .head-jumbotron h3 {
         font-size: 1.6em;
     }
-    p {
-        font-size: 1.2em !important;
-    }
     .body-jumbotron p {
         text-align: justify;
+        letter-spacing: 1px;
     }
 }
 
@@ -236,9 +257,6 @@ p {
     }
     #footer-customization i {
         padding: 20px 25px;
-    }
-    p {
-        font-size: 1.2em !important;
     }
     .head-jumbotron h1 {
         font-size: 3.2em;
@@ -263,9 +281,6 @@ p {
         font-size: 250%;
         padding: 20px 30px;
     }
-    p {
-        font-size: 1.4em !important;
-    }
     .head-jumbotron h1 {
         font-size: 3.5em;
     }
@@ -276,47 +291,3 @@ p {
         font-size: 1.1em;
     }
 }
-
-
-/*==========  Non-Mobile First Method  ==========*/
-
-
-/* Large Devices, Wide Screens */
-
-
-/*  @media only screen and (max-width : 1200px) {
-
-    }*/
-
-
-/* Medium Devices, Desktops */
-
-
-/*    @media only screen and (max-width : 992px) {
-
-    }*/
-
-
-/* Small Devices, Tablets */
-
-
-/*  @media only screen and (max-width : 768px) {
-
-    }*/
-
-
-/* Extra Small Devices, Phones */
-
-
-/*  @media only screen and (max-width : 480px) {
-
-    }*/
-
-
-/* Custom, iPhone Retina */
-
-
-/*@media only screen and (max-width : 320px) {*/
-
-
-/*}*/
