@@ -89,7 +89,7 @@ html body {
 
 .head-jumbotron h1 {
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 2.2em;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -99,7 +99,7 @@ html body {
 
 .head-jumbotron h5 {
     font-size: 0.8em;
-    text
+    font-weight: normal;
 }
 
 
@@ -153,34 +153,34 @@ html body {
 }
 
 
+/* Head jumbotron icons*/
+
+#social-customization i {
+    font-size: 200%;
+    padding: 15px 7px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#social-customization i:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+
 /* Footer */
 
-#footer-customization {
+.footer {
     background-color: #5cb85c;
     border: none;
     text-align: center;
 }
 
-#footer-customization i {
-    font-size: 170%;
-    padding: 15px 6px;
+.footer i {
+    font-size: 200%;
+    padding: 15px 7px;
     color: rgba(255, 255, 255, 0.7);
 }
 
-#footer-customization i:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-
-/* Head jumbotron icons*/
-
-#social-customization i {
-    font-size: 170%;
-    padding: 15px 6px;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-#social-customization i:hover {
+.footer i:hover {
     color: rgba(255, 255, 255, 1);
 }
 
@@ -191,20 +191,26 @@ html body {
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 480px) {
+    /* Updating icons sizes and padding, and font sizes */
     #social-customization i {
         font-size: 240%;
+        padding: 15px 10px;
     }
-    #footer-customization i {
+    .footer i {
         font-size: 240%;
+        padding: 15px 10px;
     }
     .head-jumbotron img {
         width: 140px;
     }
     .head-jumbotron h1 {
-        font-size: 2em;
+        font-size: 2.4em;
     }
     .head-jumbotron h3 {
-        font-size: 1.3em;
+        font-size: 1.75em;
+    }
+    .head-jumbotron h5 {
+        font-size: 1em;
     }
 }
 
@@ -212,6 +218,7 @@ html body {
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
+    /* Navigation bar animation */
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -221,11 +228,12 @@ html body {
     .top-nav-collapse {
         padding: 0;
     }
+    /* Updating icons sizes and padding, and font sizes */
     #social-customization i {
-        padding: 20px 15px;
+        padding: 22px 20px;
     }
-    #footer-customization i {
-        padding: 20px 15px;
+    .footer i {
+        padding: 20px 20px;
     }
     .head-jumbotron img {
         width: 170px;
@@ -234,7 +242,10 @@ html body {
         font-size: 3em;
     }
     .head-jumbotron h3 {
-        font-size: 1.6em;
+        font-size: 1.9em;
+    }
+    .head-jumbotron h5 {
+        font-size: 1.2em;
     }
     .body-jumbotron p {
         text-align: justify;
@@ -246,26 +257,28 @@ html body {
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
+    /* Showing the packground image */
     html body {
         background-image: url('../img/background-bottom-2.png');
         background-repeat: no-repeat;
         background-position: center top;
         background-size: 100%;
     }
+    /* Updating icons sizes and padding, and font sizes */
     #social-customization i {
-        padding: 20px 25px;
+        padding: 22px 25px;
     }
-    #footer-customization i {
+    .footer i {
         padding: 20px 25px;
     }
     .head-jumbotron h1 {
         font-size: 3.2em;
     }
     .head-jumbotron h3 {
-        font-size: 2em;
+        font-size: 2.1em;
     }
     .head-jumbotron h5 {
-        font-size: 1em;
+        font-size: 1.4em;
     }
 }
 
@@ -273,13 +286,14 @@ html body {
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width: 1200px) {
+    /* Updating icons sizes and padding, and font sizes */
     #social-customization i {
         font-size: 250%;
-        padding: 20px 30px;
+        padding: 22px 35px;
     }
-    #footer-customization i {
+    .footer i {
         font-size: 250%;
-        padding: 20px 30px;
+        padding: 20px 35px;
     }
     .head-jumbotron h1 {
         font-size: 3.5em;
@@ -288,6 +302,6 @@ html body {
         font-size: 2.3em;
     }
     .head-jumbotron h5 {
-        font-size: 1.1em;
+        font-size: 1.7em;
     }
 }
